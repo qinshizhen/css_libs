@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>内在尺寸</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="controls">
+        <label for="width">width:</label>
+        <select id="width">
+            <option value="auto">auto</option>
+            <option value="min-content">min-content</option>
+            <option value="max-content">max-content</option>
+            <option value="fit-content">fit-content</option>
+            <option value="fill-available">fill-available</option>
+        </select>
+    </div>
+
+    <div class="wrapper">
+        <div class="box">
+            <div class="content" id="default">
+                <img src="//www.w3cplus.com/sites/default/files/blogs/2020/2001/avatar_207.png" alt="">
+                <p>Extrinsic sizing determines sizes based on the context of an element, without regard for its
+                    contents.</p>
+                <p>Web自1989到今年刚好走过30年历程。30年来Web也发生了翻天覆地的变化，从事Web开，更应该感谢Web给我们带来的机遇和未来。</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content" id="variable">
+                <img src="//www.w3cplus.com/sites/default/files/blogs/2020/2001/avatar_207.png" alt="">
+                <p>Extrinsic sizing determines sizes based on the context of an element, without regard for its
+                    contents.</p>
+                <p>Web自1989到今年刚好走过30年历程。30年来Web也发生了翻天覆地的变化，从事Web开，更应该感谢Web给我们带来的机遇和未来。</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

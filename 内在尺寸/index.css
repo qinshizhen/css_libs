@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: "Open sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(50deg, #f3c680, hsl(179deg, 54%, 76%));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+}
+
+.controls {
+  margin: 0;
+  padding: 0.5em 2em 1em 2em;
+  border-bottom: 1px solid #666;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls select {
+  margin-right: 1.25rem;
+  color: #2f4f4f;
+  font-size: 1.2rem;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50vh;
+}
+
+.box {
+  max-width: 40vw;
+  background: white;
+  border-radius: 15px;
+  padding: 3vh;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  margin: 1vh;
+}
+.box img {
+  max-width: 15vw;
+  border-radius: 10px;
+}
+.box p {
+  font-size: 1.2rem;
+  line-height: 1.68;
+}
+
+.auto {
+  width: auto;
+}
+
+.min-content {
+  width: min-content;
+}
+
+.max-content {
+  width: max-content;
+}
+
+.fit-content {
+  width: fit-content;
+}
+
+.fill-available {
+  width: fill-available;
+}
+
+/*# sourceMappingURL=index.css.map */
